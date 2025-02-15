@@ -8,7 +8,9 @@ ________________________________________
 ## Fitur Utama
 ✅ Navigasi Menu Sistem menu interaktif untuk memilih fitur yang diinginkan.
 
-✅ Tampilkan Daftar Pasien – Admin dapat melihat daftar pasien, baik secara keseluruhan maupun dengan menginput kode pasien yang ingin dilihat datanya.✅ Tambah Pasien Baru – Admin dapat mendaftarkan pasien baru.
+✅ Tampilkan Daftar Pasien – Admin dapat melihat daftar pasien, baik secara keseluruhan maupun dengan menginput kode pasien yang ingin dilihat datanya.
+
+✅ Tambah Pasien Baru – Admin dapat mendaftarkan pasien baru.
 
 ✅ Hapus Pasien – Admin dapat menghapus data pasien yang sudah tidak aktif.
 
