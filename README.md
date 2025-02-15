@@ -6,11 +6,14 @@
 Program Klinik Hewan ini dirancang untuk membantu admin dalam mengelola data pasien hewan, termasuk menambah pasien baru, pembaruan data (status, layanan, tanggal keluar), menghapus data, serta melihat riwayat pasien yang dihapus. Admin dapat dengan mudah menambah, menghapus, memperbarui, dan melihat data pasien dengan sistem berbasis Python.
 ________________________________________
 ## 🎯 Fitur Utama
-✅ Navigasi Menu – Sistem menu interaktif untuk memilih fitur yang diinginkan.
-✅ Tampilkan Daftar Pasien – Admin dapat melihat daftar pasien, baik secara keseluruhan maupun dengan menginput kode pasien yang ingin dilihat datanya.
-✅ Tambah Pasien Baru – Admin dapat mendaftarkan pasien baru.
+✅ Navigasi Menu Sistem menu interaktif untuk memilih fitur yang diinginkan.
+
+✅ Tampilkan Daftar Pasien – Admin dapat melihat daftar pasien, baik secara keseluruhan maupun dengan menginput kode pasien yang ingin dilihat datanya.✅ Tambah Pasien Baru – Admin dapat mendaftarkan pasien baru.
+
 ✅ Hapus Pasien – Admin dapat menghapus data pasien yang sudah tidak aktif.
+
 ✅ Update Data Pasien – Admin bisa mengubah informasi layanan, status, atau tanggal keluar pasien berdasarkan kode unik.
+
 ✅ Riwayat Pasien – Admin dapat melihat Riwayat pasien yang sudah dihapus.
 
 ________________________________________
@@ -33,8 +36,10 @@ ________________________________________
 4.	Keluar dari program dengan memilih opsi yang disediakan.
 ________________________________________
 ## 🔄 Struktur Data
-•	Program ini menyimpan data pasien dalam bentuk dictionary:
+Program ini menyimpan data pasien dalam bentuk dictionary:
+
 daftar_pasien = {
+
     'kode' : ['C11', 'D11', 'C12'],
     'tanggal_masuk': [datetime.date(2025, 1, 2).strftime('%Y-%m-%d'),
                     datetime.date(2025, 1, 15).strftime('%Y-%m-%d'),
@@ -47,13 +52,16 @@ daftar_pasien = {
     'tanggal_keluar': [datetime.date(2025, 1, 2).strftime('%Y-%m-%d'),
                     'belum keluar',
                     datetime.date(2025, 2, 10).strftime('%Y-%m-%d')]
-
+      }
+      
 Setiap pasien memiliki kode unik yang digunakan untuk identifikasi dalam sistem.
 
 ________________________________________
 ## ⚠️ Validasi Input
 🔹 Admin harus memasukkan kode pasien yang valid saat memperbarui atau menghapus data.
+
 🔹 Jika input tidak sesuai, program akan meminta admin mengulanginya hingga benar.
+
 🔹 Hanya angka yang diterima untuk pilihan menu.
 ________________________________________
 ## 📂 Pustaka yang digunakan:
