@@ -31,9 +31,10 @@ ________________________________________
 ________________________________________
 ## Cara Menggunakan
 1.	Jalankan program menggunakan Python.
-2.	Pilih menu yang diinginkan dari daftar yang tersedia.
-3.	Ikuti petunjuk untuk menambah, memperbarui, atau menghapus data.
-4.	Keluar dari program dengan memilih opsi yang disediakan.
+2.	Masukkan `password` admin: `81101`
+3.	Pilih menu yang diinginkan dari daftar yang tersedia.
+4.	Ikuti petunjuk untuk menambah, memperbarui, atau menghapus data.
+5.	Keluar dari program dengan memilih opsi yang disediakan.
 ________________________________________
 ## Struktur Data
 Program ini menyimpan data pasien dalam bentuk dictionary:
@@ -73,8 +74,10 @@ ________________________________________
 ________________________________________
 ## Catatan
 🔸 Program ini belum menggunakan database, sehingga data hanya tersimpan sementara saat program berjalan.
+
 🔸 Pastikan Python sudah terinstal sebelum menjalankan program.
+
 🔸 Install pustaka tabulate jika belum tersedia dengan menjalankan perintah berikut: pip install tabulate
 
 ________________________________________
-Admin Klinik Hewan - Program ini dibuat untuk mempermudah administrasi klinik hewan dalam pencatatan pasien. 🚀
+Admin Klinik Hewan - Program ini dibuat untuk mempermudah administrasi klinik hewan dalam pencatatan pasien. 
