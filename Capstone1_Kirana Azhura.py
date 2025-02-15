@@ -189,9 +189,7 @@ def hapus():
                     del daftar_pasien['tanggal_keluar'][index_hapus]
                     print('Hewan berhasil dihapus')
                     tabel_daftarHewan()
-                    # untuk memasukkan yang sudah dihapus ke dalam riwayat
-                    # rwy.append([daftar_pasien['kode'][index_hapus], daftar_pasien['tanggal_masuk'][index_hapus], daftar_pasien['nama_pemilik'][index_hapus], daftar_pasien['nama_hewan'][index_hapus], daftar_pasien['jenis'][index_hapus], daftar_pasien['pelayanan'][index_hapus], daftar_pasien['status'][index_hapus], daftar_pasien['tanggal_keluar'][index_hapus]])
-                    
+                   
                     while True:
                         cek_hapus_lain = input('Apakah Anda ingin menghapus data lain? (Y/N): ').upper()
                         print()
