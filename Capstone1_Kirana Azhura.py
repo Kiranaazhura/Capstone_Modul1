@@ -160,7 +160,7 @@ def hapus():
     clear_terminal()
     while True:
         print("\t\nList Menu: \n"
-              "\t1. Menghapus Pasien\n"
+              "\t1. Menghapus Data Pasien\n"
              "\t2. Kembali ke Menu utama\n")
         try:
             input_hapus = int(input('Masukkan Menu yang ingin dipilih: '))
